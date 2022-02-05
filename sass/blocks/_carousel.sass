@@ -20,3 +20,36 @@
     .slick-next
         right: -66px
         left: auto
+.slick-dots
+    display: flex
+    justify-content: center
+    text-align: center
+    list-style: none        
+    button
+        background: $main_color
+        border: none
+        border-radius: 50%
+        height: 20px
+        width: 20px
+        margin: 10px
+        outline: none
+        font-size: 0
+        margin-top: 25px
+        
+    .slick-active
+        button
+            position: relative
+            &:after
+                content: ''
+                display: block
+                height: 6px
+                width: 6px
+                border-radius: 50%
+                background-color: #fff 
+                position: absolute
+                left: 50%
+                transform: translateX(-50%)
+                top: 7px
+
+                  
+
