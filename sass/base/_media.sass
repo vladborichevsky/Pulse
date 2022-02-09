@@ -4,6 +4,16 @@
 	.catalog
 		&-item
 			width: 285px
+	.footer
+		&__info
+			height: 210px
+			width: 100%
+		&__adress
+			margin-top: 30px
+		&__phone
+			margin-top: 15px
+		&__social
+			margin-top: 30px
 
 @media (max-width: 992px)
 	.button
@@ -21,6 +31,37 @@
 	.catalog
 		&__tab
 			width: 200px
+	.reviews
+		&__header
+			font-size: 26px
+			margin-bottom: 60px
+		&__item
+			margin-bottom: 60px
+		&__img
+			width: 130px
+			height: 130px
+			margin-right: 35px
+		&__text
+			font-size: 15px
+			line-height: 18px
+	.footer
+		&__info
+			height: 170px
+		&__adress
+			margin-top: 15px
+		&__phone
+			margin-top: 5px
+		&__social
+			margin-top: 20px
+			&-item
+				width: 40px
+				height: 40px
+				line-height: 40px
+				font-size: 23px
+				&:hover
+					background-color: $main_color
+					color: #ffffff
+					transition: 1s all
 
 @media (max-width: 767px)
 	.container
@@ -88,7 +129,10 @@
 		padding: 60px 0
 		&__header
 			font-size: 30px
+	.carousel
+		padding: 40px 0
 	.catalog
+		padding-bottom: 50px
 		&__tab
 			width: 150px
 			font-size: 14px
@@ -101,6 +145,27 @@
 			width: 110px
 			height: 35px
 			font-size: 13px
+	.reviews
+		&__header
+			font-size: 24px
+			margin-bottom: 30px
+		&__img
+			width: 105px
+			height: 105px
+		&__text
+			font-size: 14px
+			line-height: 17px
+	.footer
+		&__info
+			height: 135px
+		&__adress
+			margin-top: 5px
+			font-size: 18px
+		&__phone
+			margin-top: 0
+			font-size: 18px
+		&__social
+			margin-top: 15px
 
 @media (max-width: 575px)
 	.header
@@ -171,4 +236,14 @@
 			margin-top: 10px
 			width: 180px
 			font-size: 16px
+	.reviews
+		&__header
+			font-size: 20px
+			margin-bottom: 25px
+		&__img
+			width: 75px
+			height: 75px
+			margin-right: 20px
+		&__text
+			line-height: 16px
 
