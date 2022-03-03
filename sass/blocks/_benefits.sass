@@ -18,6 +18,27 @@
         align-items: center
         img
             width: 35%
+        &_animated_1
+            animation-name: experience
+            animation-duration: 2s
+            animation-iteration-count: infinite
+            animation-timing-function: ease
+            &:hover
+                animation-play-state: paused
+        &_animated_2
+            animation-name: heartbeat
+            animation-duration: 1.5s
+            animation-iteration-count: infinite
+            animation-timing-function: ease
+            &:hover
+                animation-play-state: paused
+        &_animated_3
+            animation-name: running
+            animation-duration: 2s
+            animation-iteration-count: infinite
+            animation-timing-function: ease
+            &:hover
+                animation-play-state: paused
     &__descr
         font-size: 18px
         line-height: 1.2
@@ -37,6 +58,7 @@
             &:hover
                 color: #0d0d0d
                 transition: 0.5s all
+    
 
 
 
